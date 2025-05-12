@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="CSS/normalize.css" as="style">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link rel="preload" href="CSS/styles.css" as="style">
+        <link href="CSS/general.css" rel="stylesheet">
+        <link href="CSS/contacto.css" rel="stylesheet">
+        <title>Contactanos</title>
+</head>
+<body>
+    <div class="espaciador"></div>
+    <div class="nav">
+        <a href="index.html" class="logo-link">
+            <img src="IMG/logo.jpeg" alt="Logo">
+        </a>
+        <div class="navegacion-general">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="inmuebles.html">Propiedades</a>
+        </div>
+        <button class="hamburger-btn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="hamburger-menu">
+            <div class="extra-links">
+                <a href="/propiedades">Propiedades</a>
+                <a href="/contacto">Contacto</a>
+                <a href="/acerca">Acerca de</a>
+                <hr>
+            </div>
+            <div class="default-links">
+                
+                <a href="login.html">Iniciar Sesión</a>
+                <a href="signup.html">Registrarse</a>
+            </div>
+            
+        </div>
+    </div>
+    <header id="title">
+        <h2>Contáctanos</h2>
+    </header>
+    
+    <form class="form-container">
+        <div class="text-input">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+
+        <div class="text-input">
+            <label for="direccion">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+        </div>
+
+        <div class="text-input">
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo">
+        </div>
+        
+        <button class="large">Aceptar</button>
+        
+        <a href="index.html">Volver</a>
+
+    </form>
+
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.096982082693!2d-101.15129734559787!3d20.139964614837623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cfab60ca5e1d3%3A0x60ae1a745fc6bf18!2sITSUR%20Instituto%20Tecnol%C3%B3gico%20Superior%20del%20Sur%20de%20Guanajuato!5e1!3m2!1ses!2smx!4v1741759842851!5m2!1ses!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <script src="JS/contacto.js"></script>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="IMG/logo.jpeg" alt="Logo" class="footer-logo">
+            <div class="social-icons">
+                <img src="IMG/facebook.png" alt="Facebook">
+                <img src="IMG/instagram.png" alt="Instagram">
+                <img src="IMG/whatsapp.png" alt="WhatsApp">
+            </div>
+        </div>
+    
+        <p class="footer-text">© 2025 Inmobiliaria Uriangato. Todos los derechos reservados.</p>
+    
+        <div class="footer-links">
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+        </div>
+    </footer>
+</body>
+</html>

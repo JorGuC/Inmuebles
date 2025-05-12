@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\models\\petition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\petition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250409124826_mix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\migrations\\20250409124826_mix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\controllers\\petitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\petitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\desktop\\inmuebles back\\inmuebleaplication\\inmuebleaplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{244df7ea-d757-4b52-b92c-efd2d3402c91}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\Property.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\Property.cs",
+              "RelativeToolTip": "InmuebleAplication\\Models\\Property.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwCsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:35:13.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250409124826_Mix.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:48:26.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PetitionsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PetitionsController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\PetitionsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PetitionsController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\PetitionsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:42:38.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Petition.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\Petition.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\Petition.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\Petition.cs",
+              "RelativeToolTip": "InmuebleAplication\\Models\\Petition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T12:41:20.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "InmuebleAplication\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwBUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T06:12:50.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InmueblesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T05:30:58.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\PropertyController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:56:24.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\User.cs",
+              "RelativeToolTip": "InmuebleAplication\\Models\\User.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwBgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:21:27.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "InmuebleAplication\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:02:49.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyImageController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwvz0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:38:34.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAiwIMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:24:07.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PropertyImage.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\PropertyImage.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\PropertyImage.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\PropertyImage.cs",
+              "RelativeToolTip": "InmuebleAplication\\Models\\PropertyImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:40:19.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Program.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Program.cs",
+              "RelativeToolTip": "InmuebleAplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:09:36.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\Models\\LoginModel.cs",
+              "RelativeToolTip": "InmuebleAplication\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:50:38.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\appsettings.json",
+              "RelativeDocumentMoniker": "InmuebleAplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Inmuebles back\\InmuebleAplication\\InmuebleAplication\\appsettings.json",
+              "RelativeToolTip": "InmuebleAplication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T06:15:15.048Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1243,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

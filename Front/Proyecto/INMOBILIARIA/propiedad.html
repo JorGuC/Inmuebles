@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preload" href="CSS/normalize.css" as="style">
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <link rel="preload" href="CSS/styles.css" as="style">
+        <link href="CSS/general.css" rel="stylesheet">
+        <link href="CSS/propiedad.css" rel="stylesheet">
+        
+        <title>Propiedad</title>
+    </head>
+<body>
+    <div class="espaciador"></div>
+    <div class="nav">
+        <a href="index.html" class="logo-link">
+            <img src="IMG/logo.jpeg" alt="Logo">
+        </a>
+        <div class="navegacion-general">
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="inmuebles.html">Propiedades</a>
+        </div>
+        <button class="hamburger-btn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="hamburger-menu">
+            <div class="extra-links">
+                <a href="/propiedades">Propiedades</a>
+                <a href="/contacto">Contacto</a>
+                <a href="/acerca">Acerca de</a>
+                <hr>
+            </div>
+            <div class="default-links">
+                
+                <a href="login.html">Iniciar Sesión</a>
+                <a href="signup.html">Registrarse</a>
+            </div>
+        </div>
+    </div>
+    <header id="title">
+        <h2>Propiedad</h2>
+    </header>
+    <section class="main-container">
+        
+        <!-- Primera Fila -->
+        <div class="row">
+            <!-- Sección de Información -->
+            <!-- <div class="info-section col-50">
+                <h3>Información de la Propiedad</h3>
+                <p><strong>Nombre:</strong> Casa en la Playa</p>
+                <p><strong>Dirección:</strong> Avenida del Mar, 123</p>
+                <p><strong>Precio:</strong> $300,000</p>
+                <p><strong>Descripción:</strong> Hermosa casa con vista al mar, 3 habitaciones, 2 baños.</p>
+            </div> -->
+
+            <!-- Sección de Fotos -->
+            <!-- <div class="photos-section col-50">
+                <h3>Fotos</h3>
+                <div class="row">
+                    <div class="photo">
+                        <img src="IMG/casa3.1.jpg" alt="Foto general">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="photo">
+                        <img src="IMG/casa3.2.jpg" alt="Foto 1">
+                    </div>
+                    <div class="photo">
+                        <img src="IMG/casa3.3.jpg" alt="Foto 2">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Segunda Fila -->
+        <!-- <div class="info-section col-100">
+            <h3>Más Información</h3>
+            <p><strong>Habitaciones:</strong> 3</p>
+            <p><strong>Baños:</strong> 2</p>
+            <p><strong>Medios Baños:</strong> 2</p>
+            <p><strong>Estacionamiento:</strong> Sí</p>
+            
+        </div> -->
+    </section>
+    <button id="openMortgageCalculator" style="padding: 10px 20px; margin: 20px auto; display: block; cursor: pointer;">
+        Calcular mi Hipoteca
+    </button>
+    
+    <div id="mortgageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Calculadora de Hipoteca</h2>
+            <form id="mortgageForm">
+                <div>
+                    <label for="loanAmount">Monto del Préstamo:</label>
+                    <input type="number" id="loanAmount" name="loanAmount" required placeholder="Ej: 200000">
+                </div>
+                <div>
+                    <label for="interestRate">Tasa de Interés Anual (%):</label>
+                    <input type="number" id="interestRate" name="interestRate" step="0.01" required placeholder="Ej: 5.5">
+                </div>
+                <div>
+                    <label for="loanTerm">Plazo del Préstamo (años):</label>
+                    <input type="number" id="loanTerm" name="loanTerm" required placeholder="Ej: 30">
+                </div>
+                <button type="button" id="calculateMortgage">Calcular</button>
+                <button type="button" id="pdfGenerator" style="background-color: green; display: none;">Generar PDF</button>
+            </form>
+            <div id="mortgageResult" style="margin-top: 20px;">
+                </div>
+        </div>
+    </div>
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.096982082693!2d-101.15129734559787!3d20.139964614837623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cfab60ca5e1d3%3A0x60ae1a745fc6bf18!2sITSUR%20Instituto%20Tecnol%C3%B3gico%20Superior%20del%20Sur%20de%20Guanajuato!5e1!3m2!1ses!2smx!4v1741759842851!5m2!1ses!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <h2 style="text-align: center; margin: 2rem;">Contactar Propietario</h2>
+    <form class="form-container">
+         <!-- Fila 1: Nombre y Apellido -->
+         <div class="row">
+            <div class="text-input col-50">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="text-input col-50">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+            </div>
+        </div>
+
+        <!-- Fila 2: Correo y Teléfono -->
+        <div class="row">
+            <div class="text-input col-50">
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo" placeholder="Correo">
+            </div>
+            <div class="text-input col-50">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+            </div>
+        </div>
+
+        <!-- Fila 3: Comentarios -->
+        <div class="text-input col-100">
+            <label for="descripcion">Comentarios</label>
+            <textarea name="descripcion" id="descripcion" placeholder="Comentarios"></textarea>
+        </div>
+
+    
+        <div class="file-uploader">
+            <label for="file-up">Documentos</label>
+            <input type="file" name="file-up" id="file-up">
+            <label for="file-up" id="txt-file"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M450-313v-371L330-564l-43-43 193-193 193 193-43 43-120-120v371h-60ZM220-160q-24 0-42-18t-18-42v-143h60v143h520v-143h60v143q0 24-18 42t-42 18H220Z"/></svg></label>
+        </div>
+        
+        <button class="large" id="aceptar" type="button">Aceptar</button>
+        
+        <a href="index.html">Volver</a>
+
+    </form>
+
+
+    <script src="JS/propiedad.js"></script>
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="IMG/logo.jpeg" alt="Logo" class="footer-logo">
+            <div class="social-icons">
+                <img src="IMG/facebook.png" alt="Facebook">
+                <img src="IMG/instagram.png" alt="Instagram">
+                <img src="IMG/whatsapp.png" alt="WhatsApp">
+            </div>
+        </div>
+    
+        <p class="footer-text">© 2025 Inmobiliaria Uriangato. Todos los derechos reservados.</p>
+    
+        <div class="footer-links">
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+        </div>
+    </footer>
+</body>
+</html>

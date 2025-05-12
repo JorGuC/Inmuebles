@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preload" href="CSS/styles.css" as="style">
+    <link href="CSS/general.css" rel="stylesheet">
+    <link href="CSS/aeInmueble.css" rel="stylesheet">
+    <title>Agregar Inmueble</title>
+</head>
+
+<body>
+    <div class="espaciador"></div>
+    <div class="nav">
+        <a href="index.html" class="logo-link">
+            <img src="IMG/logo.jpeg" alt="Logo">
+        </a>
+        <div class="navegacion-general">
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="inmuebles.html">Propiedades</a>
+        </div>
+        <button class="hamburger-btn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="hamburger-menu">
+            <div class="extra-links">
+                <a href="/propiedades">Propiedades</a>
+                <a href="/contacto">Contacto</a>
+                <a href="/acerca">Acerca de</a>
+                <hr>
+            </div>
+            <div class="default-links">
+                
+                <a href="login.html">Iniciar Sesión</a>
+                <a href="signup.html">Registrarse</a>
+            </div>
+            
+        </div>
+    </div>
+    <header id="title">
+        <h2>Agregar Inmueble</h2>
+    </header>
+
+    <form class="AE-inmueble">
+        <!-- Fila 1 -->
+        <div class="row">
+            <div class="text-input col-70">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="text-input col-30">
+                <label for="precio">Precio</label>
+                <input type="text" name="precio" id="precio" placeholder="Precio">
+            </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row">
+            <div class="text-input col-25">
+                <label for="habitaciones">Habitaciones</label>
+                <input type="number" name="habitaciones" id="habitaciones" placeholder="Habitaciones">
+            </div>
+            <div class="text-input col-25">
+                <label for="mediobanos">Medios Baños</label>
+                <input type="number" name="mediobanos" id="mediobanos" placeholder="Cantidad de baños">
+            </div>
+            <div class="text-input col-25">
+                <label for="banos">Baños</label>
+                <input type="number" name="banos" id="banos" placeholder="Cantidad de baños">
+            </div>
+            <div class="text-input col-10">
+                <label for="estacionamiento" id="center">Estacionamiento</label>
+                <input type="checkbox" name="estacionamiento" id="estacionamiento">
+            </div>
+            <div class="text-input col-10" id="divReserved">
+                <label for="estacionamiento" id="center">Reservada</label>
+                <input type="checkbox" name="isReserved" id="isReserved">
+            </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row">
+            <div class="text-input col-100">
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" id="direccion" placeholder="Dirección">
+            </div>
+        </div>
+
+        <!-- Fila 4 -->
+        <div class="row">
+            <div class="text-input col-100">
+                <label for="descripcion">Descripción</label>
+                <textarea name="descripcion" id="descripcion" placeholder="Descripción"></textarea>
+            </div>
+        </div>
+
+        <!-- Fila 5 -->
+        <div class="file-uploader">
+            <label for="file-up">Selecciona tus archivos</label>
+            <input type="file" name="file-up" id="file-up" multiple>
+            <div id="fileListContainer"></div> <!-- Contenedor para mostrar los archivos seleccionados -->
+        </div>
+
+        <button class="large" id="aceptar">Aceptar</button>
+        <a href="index.html">Volver</a>
+    </form>
+    <script src="JS/agregarArchivo.js"></script>
+    <!-- <script src="JS/agregarInmueble.js"></script> -->
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="IMG/logo.jpeg" alt="Logo" class="footer-logo">
+            <div class="social-icons">
+                <img src="IMG/facebook.png" alt="Facebook">
+                <img src="IMG/instagram.png" alt="Instagram">
+                <img src="IMG/whatsapp.png" alt="WhatsApp">
+            </div>
+        </div>
+    
+        <p class="footer-text">© 2025 Inmobiliaria Uriangato. Todos los derechos reservados.</p>
+    
+        <div class="footer-links">
+            <a href="contacto.html">Contacto</a>
+            <a href="nosotros.html">Nosotros</a>
+        </div>
+    </footer>
+</body>
+
+</html>

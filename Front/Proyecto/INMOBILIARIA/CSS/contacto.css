@@ -1,0 +1,25 @@
+
+
+button.large { 
+    display: block;
+    font-weight: bold;
+    font-size: medium;
+    margin: 2rem auto;
+}
+.form-container a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; /* Ajusta el grosor */
+    text-decoration-color: black; /* Ajusta el color */
+    text-underline-offset: 2px; /* Ajusta la distancia entre el texto y la línea */
+}
+
+.form-container a {
+    color: black;
+    display: flex;
+    justify-content: right;
+    font-size: large;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+
