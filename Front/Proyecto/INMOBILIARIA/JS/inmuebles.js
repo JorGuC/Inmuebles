@@ -1,54 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    
-    const hamburgerBtn = document.querySelector('.hamburger-btn');
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const defaultLinks = document.querySelector('.default-links');
 
-    // Mostrar/ocultar menú
-    hamburgerBtn.addEventListener('click', function () {
-        hamburgerMenu.classList.toggle('active');
-    });
-
-    // Verificar sesión del usuario
-    const userData = sessionStorage.getItem('user');
-
-    if (userData) {
-        const user = JSON.parse(userData);
-        const userType = user.userType;
-
-        // Eliminar los enlaces por defecto (Iniciar Sesión / Registrarse)
-        defaultLinks.innerHTML = '';
-
-        // Crear enlace personalizado según el tipo de usuario
-        let customLink = document.createElement('a');
-        const createLink = document.createElement('a');
-        if (userType === 'Owner') {
-            customLink.href = 'perfilVendedor.html';
-            customLink.textContent = 'Ir a Perfil';
-            
-            
-            createLink.href = 'aeInmueble.html';
-            createLink.textContent = 'Nuevo Inmueble';
-        } else{
-            customLink.href = 'perfilCliente.html';
-            customLink.textContent = 'Mi Perfil';
-        }
-
-        
-        defaultLinks.appendChild(customLink);
-        defaultLinks.appendChild(createLink);
-        
-        const logoutLink = document.createElement('a');
-        logoutLink.href = 'index.html';
-        logoutLink.textContent = 'Cerrar Sesión';
-        logoutLink.addEventListener('click', function () {
-            sessionStorage.removeItem('user');
-            location.reload();
-        });
-
-        defaultLinks.appendChild(logoutLink);
-    }
-
+   
 
     try {
         
@@ -90,16 +42,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         //  Renderizar propiedades filtradas
         allProperties = propertiesWithImages.filter(p => p);
         renderProperties(allProperties);
-        document.getElementById('filterBtn').addEventListener('click', () => {
-            const searchText = document.getElementById('searchInput').value.toLowerCase();
-            const selectedBedrooms = document.getElementById('bedroomFilter').value;
-            const selectedPrice = document.getElementById('priceFilter').value;
-        
-            const filtered = allProperties.filter(prop => {
-                const matchesSearch = prop.title.toLowerCase().includes(searchText) || 
-                                      (prop.location && prop.location.toLowerCase().includes(searchText));
-                const matchesBedroom = selectedBedrooms === '' || prop.bedrooms >= selectedBedrooms;
-                let matchesPrice = true;
+        const searchInput = document.getElementById('searchInput');
+const bedroomFilter = document.getElementById('bedroomFilter');
+const priceFilter = document.getElementById('priceFilter');
+
+// Función reutilizable de filtrado
+function applyFilters() {
+    const searchText = searchInput.value.toLowerCase();
+    const selectedBedrooms = bedroomFilter.value;
+    const selectedPrice = priceFilter.value;
+
+    const filtered = allProperties.filter(prop => {
+        const matchesSearch = prop.title.toLowerCase().includes(searchText) || 
+                              (prop.location && prop.location.toLowerCase().includes(searchText));
+        const matchesBedroom = selectedBedrooms === '' || prop.bedrooms >= selectedBedrooms;
+
+        let matchesPrice = true;
         const price = prop.price || 0;
 
         if (selectedPrice === '100000') {
@@ -113,10 +71,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         return matchesSearch && matchesBedroom && matchesPrice;
-            });
-        
-            renderProperties(filtered);
-        });
+    });
+
+    renderProperties(filtered);
+}
+
+// Escucha cambios automáticamente
+searchInput.addEventListener('input', applyFilters);
+bedroomFilter.addEventListener('change', applyFilters);
+priceFilter.addEventListener('change', applyFilters);
+
         
         
     } catch (error) {
@@ -135,38 +99,6 @@ function renderProperties(properties) {
         showNoResults();
         return;
     }
-
-   
-//vv-------Prueba-----------vv
-//      container.innerHTML = properties.map(property => `
-//          <div class="propiedad">
-//              <div class="img-prop">
-//                  ${property.images?.length > 0 ? 
-//                      `<img src="${ensureValidUrl(property.images[0].imageUrl)}" 
-//                           alt="${property.title}" 
-//                           onerror="handleImageError(this)">` : 
-//                      `<div class="no-image">Sin imagen</div>`}
-//              </div>
-//              <div class="cont-prop">
-//                  <h3>${property.title || 'Sin título'}</h3>
-//                  <p>${property.description || 'Sin descripción'}</p>
-//                  <div class="property-details">
-//                      <span>${property.bedrooms || 0} Hab.</span>
-//                      <span>${property.bathrooms || 0} Baños</span>
-//                      <span>$${(property.price || 0).toLocaleString()}</span>
-//                  </div>
-
-//                  <button class="view-button" onclick="viewProperty(${property.id})">Ver</button>
-//              </div>
-//         </div>
-//      `).join('');
-// // Funcion para la otra
-// function ensureValidUrl(url) {
-//     if (!url) return 'i5.walmartimages.com.mx/gr/images/product-images/img_large/00040101080200L1.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF';
-//     if (url.startsWith('http')) return url;
-//     return `https://${url}`; // Asume que es un dominio sin https
-// }
-//^^-------Prueba-----------^^
 
 const filteredProperties = properties.filter(property =>  !property.isReserved);
 console.log(filteredProperties);

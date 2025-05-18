@@ -10,9 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link rel="preload" href="CSS/styles.css" as="style">
-    <link href="CSS/general.css" rel="stylesheet">
-    <link href="CSS/aeInmueble.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main-full.css">
+
     <title>Agregar Inmueble</title>
 </head>
 
@@ -81,10 +80,12 @@
                 <label for="estacionamiento" id="center">Estacionamiento</label>
                 <input type="checkbox" name="estacionamiento" id="estacionamiento">
             </div>
-            <div class="text-input col-10" id="divReserved">
+            <div class="text-input col-10">
+     
                 <label for="estacionamiento" id="center">Reservada</label>
                 <input type="checkbox" name="isReserved" id="isReserved">
             </div>
+          
         </div>
 
         <!-- Fila 3 -->
@@ -111,9 +112,8 @@
         </div>
 
         <button class="large" id="aceptar">Aceptar</button>
-        <a href="index.html">Volver</a>
+        <a href="perfilVendedor.html">Volver</a>
     </form>
-    <script src="JS/agregarArchivo.js"></script>
     <!-- <script src="JS/agregarInmueble.js"></script> -->
     <footer class="footer">
         <div class="footer-left">
@@ -124,14 +124,17 @@
                 <img src="IMG/whatsapp.png" alt="WhatsApp">
             </div>
         </div>
-    
+        
         <p class="footer-text">© 2025 Inmobiliaria Uriangato. Todos los derechos reservados.</p>
-    
+        
         <div class="footer-links">
             <a href="contacto.html">Contacto</a>
             <a href="nosotros.html">Nosotros</a>
         </div>
     </footer>
 </body>
+<script src="JS/general.js"></script>
+<script src="JS/archivos.js"></script>
+<script src="JS/agregarArchivo.js"></script>
 
 </html>

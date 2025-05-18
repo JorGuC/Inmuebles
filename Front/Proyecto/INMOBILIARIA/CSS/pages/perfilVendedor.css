@@ -1,0 +1,43 @@
+/* ==========================================
+   Página: perfilvendedor.html
+   Descripción: Estilos específicos del vendedor
+   ========================================== */
+
+/* Estilos únicos */
+#pefilVendedor .inmuebles .propiedad {
+    width: 85%;
+}
+
+#pefilVendedor #historial hr {
+    height: 0;
+    overflow: visible;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.botones {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.botones input {
+    margin-right: 2rem;
+    width: 13rem;
+}
+
+/* Media queries exclusivas */
+@media (max-width: 768px) {
+    .properties-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+}

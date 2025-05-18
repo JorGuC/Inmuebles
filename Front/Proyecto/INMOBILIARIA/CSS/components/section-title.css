@@ -1,0 +1,19 @@
+/* ======= SEPARADOR DE TÍTULO ======= */
+.separador-titulo {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1.5rem 0;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(100, 100, 100, 0.1) 0%, rgba(200, 200, 200, 0.4) 50%, rgba(100, 100, 100, 0.1) 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.separador-titulo h2 {
+    color: #000000;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0;
+}

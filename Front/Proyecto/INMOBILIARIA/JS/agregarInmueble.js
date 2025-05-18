@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const propertyId = urlParams.get('id');
     const isEditMode = !!propertyId;
-
+    debugger
     // Obtener usuario de sessionStorage
     const userString = sessionStorage.getItem('user');
     if (!userString) {

@@ -16,6 +16,8 @@ namespace Data{
         public DbSet<PropertyImage> PropertyImages { get; set; }
         public DbSet<Petition> Petitions { get; set; }
 
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

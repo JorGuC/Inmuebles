@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "/luwDAA2IOc3my6FJm59W6u7gAUFCk8MyfRitG8GUIw=",
+  "Hash": "qK5BYpJdDhagvMneaXk/LOWr/Jv3uIWm/9TPoiUdPt4=",
   "Source": "InmuebleAplication",
   "BasePath": "_content/InmuebleAplication",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

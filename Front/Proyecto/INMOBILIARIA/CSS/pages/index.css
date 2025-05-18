@@ -1,0 +1,26 @@
+/* ==========================================
+   Página: index.html
+   Descripción: Adaptaciones responsive exclusivas para el index
+   ========================================== */
+
+@media (max-width: 768px) {
+    .navegacion-principal {
+        display: none;
+    }
+
+    .hamburger-menu .extra-links {
+        display: block;
+    }
+
+    .properties-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+}

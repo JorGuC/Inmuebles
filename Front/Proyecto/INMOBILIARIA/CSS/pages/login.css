@@ -1,0 +1,47 @@
+/* ==========================================
+   Página: login.html
+   Layout estructural del login
+   ========================================== */
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    height: 500px; /* Altura fija para efecto visual equilibrado */
+    margin: 5rem auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen ocupa 50% */
+.image-container {
+    flex: 1;
+    height: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== Responsive: solo se muestra el formulario ===== */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .form-container {
+        width: 100%;
+    }
+
+    .image-container {
+        display: none;
+    }
+}
+
+button.large {
+    display: block;
+    margin: 1rem auto;
+}

@@ -1,0 +1,40 @@
+/* ========== BASE ========== */
+@import url("normalize.css");
+@import url("base/reset.css");
+@import url("base/global.css");
+
+/* ========== COMPONENTS ========== */
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/filters.css");
+@import url("components/forms.css");
+@import url("components/form-login.css");
+@import url("components/form-propiedad.css");
+@import url("components/hero.css");
+@import url("components/images.css");
+@import url("components/loader.css");
+@import url("components/map.css");
+@import url("components/messages.css");
+@import url("components/modal.css");
+@import url("components/searchbar.css");
+@import url("components/section-title.css");
+@import url("components/tables.css");
+
+/* ========== LAYOUTS ========== */
+@import url("layouts/header.css");
+@import url("layouts/footer.css");
+@import url("layouts/navbar-general.css");
+@import url("layouts/navbar-index.css");
+
+/* ========== PAGES ========== */
+@import url("pages/aeInmueble.css");
+@import url("pages/contacto.css");
+@import url("pages/index.css");
+@import url("pages/inmuebles.css");
+@import url("pages/login.css");
+@import url("pages/nosotros.css");
+@import url("pages/perfilcliente.css");
+@import url("pages/perfilvendedor.css");
+@import url("pages/propiedad.css");
+
+

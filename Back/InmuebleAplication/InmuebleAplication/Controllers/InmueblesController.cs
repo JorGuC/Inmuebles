@@ -9,8 +9,7 @@ namespace InmuebleAplication.Controllers
     [ApiController]
     public class InmueblesController : ControllerBase
     {
-        private readonly string _storagePath = Path.Combine("C:", "Users", "DELL", "Desktop", "Inmuebles back", "Proyecto", "INMOBILIARIA", "IMG");
-
+        private readonly string _storagePath = @"C:\Users\ariza\Documentos\inmuebles\Inmuebles\Front\Proyecto\INMOBILIARIA\IMG";
         public InmueblesController()
         {
             if (!Directory.Exists(_storagePath))

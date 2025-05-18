@@ -26,15 +26,25 @@ namespace InmuebleAplication.Models
 
         public string Comentarios { get; set; } = string.Empty;
 
-        public string? Documentos { get; set; } // Puede ser null o vacío
+        [Required(ErrorMessage = "El documento INE es obligatorio")]
+        [StringLength(500)]
+        public string DocumentoINE { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "El documento CURP es obligatorio")]
+        [StringLength(500)]
+        public string DocumentoCURP { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "El comprobante de domicilio es obligatorio")]
+        [StringLength(500)]
+        public string DocumentoComprobanteDomicilio { get; set; } = string.Empty;
 
         [Required]
         public int PropertyId { get; set; }
 
         [Required(ErrorMessage = "El ID del usuario es obligatorio")]
         [ForeignKey("User")]
-        public int UserId { get; set; } // Nueva propiedad para el ID del usuario
+        public int UserId { get; set; }
 
-        public User? User { get; set; } // Propiedad de navegación opcional hacia el modelo User
+        public User? User { get; set; }
     }
 }

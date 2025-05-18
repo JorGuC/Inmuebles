@@ -1,0 +1,100 @@
+/* ======= BOTONES REUTILIZABLES ======= */
+
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+button.secondary {
+    background-color: #f8f9fa;
+    color: #333;
+    border-color: #f8f9fa;
+}
+
+button.secondary:hover {
+    background-color: #e2e6ea;
+    border-color: #e2e6ea;
+}
+
+button.outline {
+    background-color: transparent;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+button.outline:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.small {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+button.large {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+
+.register-button {
+    display: block;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 12px 25px;
+    background-color: transparent;
+
+    border-radius: 8px;
+
+    font-size: 1.4rem !important;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.register-button:hover {
+    color: rgb(0, 166, 255);
+    font-size: 1.5rem !important;
+    cursor: pointer;
+}
+
+.btn-ver-propiedades {
+    position: absolute;
+    top: calc(50% + 8rem); /* debajo del título */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.8rem 2rem;
+    color: white;
+     background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 2;
+}
+
+.btn-ver-propiedades:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateX(-50%) scale(1.05);
+}

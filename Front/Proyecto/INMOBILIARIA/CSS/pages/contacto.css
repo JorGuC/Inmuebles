@@ -1,0 +1,26 @@
+/* ==========================================
+   Página: contacto
+   Descripción: Estilos exclusivos para la sección de contacto
+   ========================================== */
+
+.form-container a {
+    color: black;
+    display: flex;
+    justify-content: right;
+    font-size: large;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    text-underline-offset: 2px;
+}
+
+/* ========== MEDIA QUERIES ========== */
+@media (max-width: 768px) {
+    /* Actualmente no hay elementos que requieran media queries.
+       Agrega aquí si en el futuro se necesita adaptar contenido. */
+}

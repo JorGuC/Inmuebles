@@ -1,16 +1,8 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const hamburgerBtn = document.querySelector('.hamburger-btn');
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const defaultLinks = document.querySelector('.default-links');
-
-    // Mostrar/ocultar menú
-    hamburgerBtn.addEventListener('click', function () {
-        hamburgerMenu.classList.toggle('active');
-    });
-
+    debugger
     // Verificar sesión del usuario
     const userData = sessionStorage.getItem('user');
-    
+
     let ID = null;
     let user = null;
     if (userData) {
@@ -26,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Actualizar el título del header con el nombre del usuario
     if (user) {
-        document.querySelector("#title h2").textContent = `${user.name}`;
+        document.querySelector("#title h1").textContent = `${user.name}`;
     }
     console.log("Usuario (vendedor):", user);
     let properties;
@@ -43,11 +35,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (userType === 'Owner') {
             customLink.href = 'perfilVendedor.html';
             customLink.textContent = 'Ir a Perfil';
-            
-            
+
+
             createLink.href = 'aeInmueble.html';
             createLink.textContent = 'Nuevo Inmueble';
-        } else{
+        } else {
             customLink.href = 'perfilCliente.html';
             customLink.textContent = 'Mi Perfil';
         }
@@ -68,19 +60,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         defaultLinks.appendChild(logoutLink);
     }
     try {
-        
+
         document.getElementById('loadingIndicator').style.display = 'block';
         document.getElementById('propertiesContainer').innerHTML = '';
-        
+
         // Obtener propiedades
         const propertiesResponse = await fetch('https://localhost:7164/api/Property');
-        
+
         if (!propertiesResponse.ok) {
             throw new Error(`Error HTTP: ${propertiesResponse.status}`);
         }
 
-         properties = await propertiesResponse.json();
-        
+        properties = await propertiesResponse.json();
+
         // Verificar si hay propiedades
         if (!properties || properties.length === 0) {
             showNoResults();
@@ -104,7 +96,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         //  Renderizar propiedades
         renderProperties(propertiesWithImages.filter(p => p));
-        
+
     } catch (error) {
         console.error('Error al cargar propiedades:', error);
         showError();
@@ -112,36 +104,83 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('loadingIndicator').style.display = 'none';
     }
 
-    const filteredProperties = properties.filter(property => property.ownerId === ID  && property.isReserved);
-    console.log(filteredProperties);
-    const tableBody = document.getElementById("tblHistorial").getElementsByTagName("tbody")[0];
+    try {
+        const tableBody = document.getElementById("tblHistorial");
+        const response = await fetch(`https://localhost:7164/api/Petitions/vendedor/${ID}`);
+        if (!response.ok) throw new Error("No se pudo cargar el historial");
 
-    filteredProperties.forEach(property => {
-        const row = document.createElement("tr");
+        const petitions = await response.json();
 
-        const inmuebleCell = document.createElement("td");
-        inmuebleCell.textContent = `Propiedad ${property.title}`;
-        row.appendChild(inmuebleCell);
+        if (petitions.length === 0) {
+            tableBody.innerHTML = `<tr><td colspan="6">No hay solicitudes registradas.</td></tr>`;
+        } else {
+            petitions.forEach(p => {
+                const row = document.createElement("tr");
 
-        const compradorCell = document.createElement("td");
-        compradorCell.textContent = property.buyer;
-        row.appendChild(compradorCell);
+                // Columna: Inmueble
+                const inmueble = document.createElement("td");
+                inmueble.innerHTML = `${p.propertyTitle || "Sin título"}<br><button onclick="viewProperty(${p.propertyId})">Ver</button>`;
+                row.appendChild(inmueble);
 
-        const descripcionCell = document.createElement("td");
-        descripcionCell.textContent = property.description;
-        row.appendChild(descripcionCell);
+                // Columna: Comprador
+                const comprador = document.createElement("td");
+                comprador.textContent = `${p.nombre} ${p.apellido}`;
+                row.appendChild(comprador);
 
-        const documentosCell = document.createElement("td");
-        const documentosLink = document.createElement("a");
-        documentosLink.href = `#${property.documents}`;  // Puede ser una URL real si los documentos están en el servidor
-        documentosLink.textContent = property.documents;
-        documentosCell.appendChild(documentosLink);
-        row.appendChild(documentosCell);
+                // Columna: Teléfono
+                const tel = document.createElement("td");
+                tel.textContent = p.telefono;
+                row.appendChild(tel);
 
-        tableBody.appendChild(row);
-    });
+                // Columna: Correo
+                const email = document.createElement("td");
+                email.textContent = p.correo;
+                row.appendChild(email);
+
+                // Columna: Comentarios
+                const comentarios = document.createElement("td");
+                comentarios.textContent = p.comentarios || "Sin comentarios";
+                row.appendChild(comentarios);
+
+                // Columna: Documentos
+                const docs = document.createElement("td");
+                const docBtns = [];
+
+                if (p.documentoINE)
+                    docBtns.push(`<button onclick="openDocument('${p.documentoINE}')">INE</button>`);
+                if (p.documentoCURP)
+                    docBtns.push(`<button onclick="openDocument('${p.documentoCURP}')">CURP</button>`);
+                if (p.documentoComprobanteDomicilio)
+                    docBtns.push(`<button onclick="openDocument('${p.documentoComprobanteDomicilio}')">Comprobante</button>`);
+
+                docs.innerHTML = docBtns.join('<br>');
+                row.appendChild(docs);
+
+                tableBody.appendChild(row);
+            });
+        }
+    } catch (error) {
+        console.error("Error cargando historial:", error);
+    }
+
+
+
+
 
 });
+async function openDocument(fileName) {
+    try {
+        const url = `DOCS/${encodeURIComponent(fileName)}`;
+        const response = await fetch(url);
+        if (!response.ok) throw new Error("No se pudo cargar el documento");
+
+        const blob = await response.blob();
+        const blobUrl = URL.createObjectURL(blob);
+        window.open(blobUrl, '_blank');
+    } catch (err) {
+        alert(`Error al abrir el archivo: ${err.message}`);
+    }
+}
 
 // Función para renderizar propiedades
 function renderProperties(properties) {
@@ -159,11 +198,11 @@ function renderProperties(properties) {
     container.innerHTML = properties.map(property => `
         <div class="propiedad">
         <div class="img-prop">
-                ${property.images?.length > 0 ? 
-                    `<img src="IMG/${property.images[0].imageUrl}"></img>
+                ${property.images?.length > 0 ?
+            `<img src="IMG/${property.images[0].imageUrl}"></img>
                          alt="${property.title}" 
-                         onerror="handleImageError(this)">` : 
-                    `<div class="no-image">Sin imagen</div>`}
+                         onerror="handleImageError(this)">` :
+            `<div class="no-image">Sin imagen</div>`}
             </div>
             <div class="cont-prop">
                 <h3>${property.title || 'Sin título'}</h3>
@@ -217,29 +256,29 @@ function viewProperty(id) {
 }
 
 function editProperty(id) {
-    
+
     // const usuario = JSON.parse(sessionStorage.getItem('user'));
     // console.log(usuario.id);
     window.location.href = `aeInmueble.html?id=${id}`;
 }
 
 function deleteProperty(id) {
-    
+
     const confirmDelete = confirm("¿Estás seguro de que deseas eliminar esta propiedad?");
 
     if (!confirmDelete) return;
 
-        const response =  fetch(`https://localhost:7164/api/Property/${id}`, {
-            method: 'DELETE'
-        });
+    const response = fetch(`https://localhost:7164/api/Property/${id}`, {
+        method: 'DELETE'
+    });
 
-        
 
-        // Mostrar mensaje opcional
-        alert("Propiedad eliminada correctamente.");
 
-        
-        window.location.href = `perfilVendedor.html`;
+    // Mostrar mensaje opcional
+    alert("Propiedad eliminada correctamente.");
 
-    
+
+    window.location.href = `perfilVendedor.html`;
+
+
 }

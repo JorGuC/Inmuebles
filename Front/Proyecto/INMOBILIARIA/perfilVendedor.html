@@ -4,107 +4,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <link rel="preload" href="CSS/normalize.css" as="style">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link rel="preload" href="CSS/styles.css" as="style">
-    <link href="CSS/general.css" rel="stylesheet">
-    <link href="CSS/perfilVendedor.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main-full.css">
+
     <title>Perfil Vendedor</title>
 </head>
 
 <body>
-    <div class="espaciador"></div>
-    <div class="nav">
-        <a href="index.html" class="logo-link">
-            <img src="IMG/logo.jpeg" alt="Logo">
-        </a>
-        <div class="navegacion-general">
-            <a href="index.html">Inicio</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="inmuebles.html">Propiedades</a>
+    <div class="page-wrapper">
+        <div class="espaciador"></div>
+        <div class="nav">
+            <a href="index.html" class="logo-link">
+                <img src="IMG/logo.jpeg" alt="Logo">
+            </a>
+
+            <button class="hamburger-btn">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <div class="hamburger-menu">
+
+                <div class="default-links">
+
+                    <a href="login.html">Iniciar Sesión</a>
+                    <a href="signup.html">Registrarse</a>
+                </div>
+            </div>
         </div>
-        <button class="hamburger-btn">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
-        <div class="hamburger-menu">
-            <div class="extra-links">
-                <a href="/propiedades">Propiedades</a>
-                <a href="/contacto">Contacto</a>
-                <a href="/acerca">Acerca de</a>
+
+        <header id="title">
+            <h1>Toños Inmuebles</h1>
+        </header>
+
+        <div class="separador-titulo">
+            <h2>Mis inmuebles</h2>
+        </div>
+        <section id="pefilVendedor">
+            <section class="inmuebles">
+
+                <main class="main-content">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Buscar propiedades...">
+                        <button id="searchButton">Buscar</button>
+                    </div>
+
+
+
+                    <div id="loadingIndicator" class="loading">
+                        <div class="spinner"></div>
+                        <p>Cargando propiedades...</p>
+                    </div>
+
+                    <div id="propertiesContainer" class="contenedor-propiedades"></div>
+
+                    <div id="noResults" class="no-results" style="display: none;">
+                        <p>No se encontraron propiedades que coincidan con tu búsqueda.</p>
+                    </div>
+
+
+                </main>
+
+            </section>
+            <section id="historial">
                 <hr>
-            </div>
-            <div class="default-links">
-                
-                <a href="login.html">Iniciar Sesión</a>
-                <a href="signup.html">Registrarse</a>
-            </div>
-        </div>
+                <h2 id="title">Mis pedidos</h2>
+                <table id="tblHistorial">
+                    <tr>
+                        <th>Inmueble</th>
+                        <th>Comprador</th>
+                        <th>Teléfono</th>
+                        <th>Correo</th>
+                        <th>Comentarios</th>
+                        <th>Documentos</th>
+                    </tr>
+                </table>
+
+            </section>
+        </section>
     </div>
-
-    <header id="title">
-        <h2>Toños Inmuebles</h2>
-    </header>
-
-
-    <section id="pefilVendedor">
-        <section class="inmuebles">
-
-            <main class="main-content">
-                <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Buscar propiedades...">
-                    <button id="searchButton">Buscar</button>
-                </div>
-        
-                
-        
-                <div id="loadingIndicator" class="loading">
-                    <div class="spinner"></div>
-                    <p>Cargando propiedades...</p>
-                </div>
-                
-                <div id="propertiesContainer" class="contenedor-propiedades"></div>
-        
-                <div id="noResults" class="no-results" style="display: none;">
-                    <p>No se encontraron propiedades que coincidan con tu búsqueda.</p>
-                </div>
-        
-                
-            </main>
-
-        </section>
-        <section id="historial">
-            <hr>
-            <h2 id="title">Historial</h2>
-            <table id="tblHistorial">
-                <tr>
-                    <th>Inmueble</th>
-                    <th>Comprador</th>
-                    <th>Comentarios</th>
-                    <th>Documentos</th>
-                </tr>
-                <tr>
-                    <td>
-                        <br>
-                    </td>
-                    <td>
-                        <br>
-                    </td>
-                    <td>
-                        <br>
-                    </td>
-                    <td>
-                        <br>
-                    </td>
-                </tr>
-            </table>
-        </section>
-    </section>
-
     <footer class="footer">
         <div class="footer-left">
             <img src="IMG/logo.jpeg" alt="Logo" class="footer-logo">
@@ -123,7 +107,8 @@
         </div>
     </footer>
 
-    <script src="JS/perfilVendedor.js"></script>
 </body>
+<script src="JS/general.js"></script>
+<script src="JS/perfilVendedor.js"></script>
 
 </html>

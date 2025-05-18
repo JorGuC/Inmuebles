@@ -1,0 +1,86 @@
+#tblHistorial {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 85%;
+    max-height: 47rem;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#tblHistorial th {
+    text-align: center;
+    height: 5rem;
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#tblHistorial td {
+    text-align: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+#tblHistorial tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#tblHistorial tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+#tblHistorial td:last-child,
+#tblHistorial th:last-child {
+    border-right: none;
+}
+
+#tblHistorial a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+#tblHistorial a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #tblHistorial {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    #tblHistorial th,
+    #tblHistorial td {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #tblHistorial {
+        display: block;
+        overflow-x: auto;
+    }
+
+    #tblHistorial th,
+    #tblHistorial td {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.8rem;
+    }
+
+    #tblHistorial tr {
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #ddd;
+    }
+}

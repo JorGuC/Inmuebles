@@ -1,0 +1,29 @@
+/* ======= RESET Y CONFIGURACIÓN GENERAL ======= */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+body {
+    font-size: 1.6rem; /* Esto equivale a 16px */
+}
+
+.page-wrapper {
+    min-height: calc(100vh - 100px); /* Ajusta 100px a la altura de tu footer */
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}

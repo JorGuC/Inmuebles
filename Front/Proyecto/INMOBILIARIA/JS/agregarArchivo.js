@@ -1,60 +1,21 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburgerBtn = document.querySelector('.hamburger-btn');
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const defaultLinks = document.querySelector('.default-links');
-    const ocultarVerReserved = this.getElementById('divReserved');
-    ocultarVerReserved.style.display = 'none';
+document.addEventListener('DOMContentLoaded', function () {
+
+
     // Mostrar/ocultar menú
-    hamburgerBtn.addEventListener('click', function () {
-        hamburgerMenu.classList.toggle('active');
-    });
 
-    // Verificar sesión del usuario
-    const userData = sessionStorage.getItem('user');
 
-    if (userData) {
-        const user = JSON.parse(userData);
-        const userType = user.userType;
-
-        // Eliminar los enlaces por defecto (Iniciar Sesión / Registrarse)
-        defaultLinks.innerHTML = '';
-
-        // Crear enlace personalizado según el tipo de usuario
-        let customLink = document.createElement('a');
-
-        if (userType === 'Owner') {
-            customLink.href = 'perfilVendedor.html';
-            customLink.textContent = 'Ir a Perfil';
-        } else{
-            customLink.href = 'perfilCliente.html';
-            customLink.textContent = 'Mi Perfil';
-        }
-
-        // Agregar el enlace personalizado
-        defaultLinks.appendChild(customLink);
-
-        // Agregar botón de cerrar sesión
-        const logoutLink = document.createElement('a');
-        logoutLink.href = 'index.html';
-        logoutLink.textContent = 'Cerrar Sesión';
-        logoutLink.addEventListener('click', function () {
-            sessionStorage.removeItem('user');
-            location.reload();
-        });
-
-        defaultLinks.appendChild(logoutLink);
-    }
+    debugger;
     const form = document.querySelector('.AE-inmueble');
     const submitButton = form.querySelector('.large');
     const fileInput = document.getElementById('file-up');
     const fileListContainer = document.getElementById('fileListContainer');
     let selectedFiles = [];
-    
+
     // Verificar si estamos en modo edición
     const urlParams = new URLSearchParams(window.location.search);
     const propertyId = urlParams.get('id');
     const isEditMode = !!propertyId;
-    
+
     // Obtener usuario de sessionStorage
     const userString = sessionStorage.getItem('user');
     if (!userString) {
@@ -63,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
     const user = JSON.parse(userString);
-    
+
     // Configurar interfaz según modo
     if (isEditMode) {
         document.querySelector('#title h2').textContent = 'Editar Inmueble';
@@ -74,18 +35,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cargar datos de la propiedad para edición
     async function loadPropertyData(id) {
         try {
+            debugger;
             const response = await fetch(`https://localhost:7164/api/Property/${id}`);
             if (!response.ok) throw new Error('Error al cargar la propiedad');
-            
+
             const property = await response.json();
-            
+
             // Verificar que el usuario es el propietario
             if (property.ownerId !== user.id) {
                 alert('No tienes permiso para editar esta propiedad');
-                window.location.href = 'mis-propiedades.html';
+                window.location.href = 'perfilVendedor.html';
                 return;
             }
-            ocultarVerReserved.style.display = 'block';
+
             // Llenar formulario con los datos
             document.getElementById('nombre').value = property.title || '';
             document.getElementById('precio').value = property.price ? `$${property.price.toLocaleString()}` : '';
@@ -96,48 +58,53 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('isReserved').checked = property.isReserved || false;
             document.getElementById('direccion').value = property.location || '';
             document.getElementById('descripcion').value = property.description || '';
-            
+
             console.log(property.isReserved)
             // Cargar imágenes existentes (si las hay)
-            
-            
+
+
         } catch (error) {
             console.error('Error cargando propiedad:', error);
             alert('No se pudo cargar la propiedad para edición');
-            window.location.href = 'mis-propiedades.html';
+            window.location.href = 'perfilCliente.html';
         }
     }
 
     // Manejo de selección de archivos
-    fileInput.addEventListener('change', function(event) {
+    fileInput.addEventListener('change', function (event) {
         const files = event.target.files;
-        selectedFiles = [...selectedFiles, ...files]; 
+        selectedFiles = [...selectedFiles, ...files];
         displaySelectedFiles();
     });
 
+
+
+
     function displaySelectedFiles() {
         fileListContainer.innerHTML = '';
-    
+
         selectedFiles.forEach((file, index) => {
             const fileItem = document.createElement('div');
             fileItem.classList.add('file-item');
-    
+
             const removeButton = document.createElement('button');
             removeButton.type = 'button';
             removeButton.classList.add('remove-file');
             removeButton.textContent = 'Eliminar';
             removeButton.addEventListener('click', () => {
+                debugger;
                 selectedFiles = selectedFiles.filter(f => f !== file);
                 displaySelectedFiles();
             });
 
             if (file.type.startsWith('image/')) {
                 const reader = new FileReader();
-                reader.onload = function(e) {
+                reader.onload = function (e) {
                     const imageUrl = e.target.result;
                     fileItem.innerHTML = `
                         <div>
                             <img src="${imageUrl}" alt="${file.name}" style="max-width: 100px; max-height: 100px;"/>
+                            <br>
                             <span>${file.name}</span>
                         </div>
                     `;
@@ -153,7 +120,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    submitButton.addEventListener('click', async function(e) {
+
+
+    submitButton.addEventListener('click', async function (e) {
         e.preventDefault();
 
         // Obtener valores del formulario
@@ -210,8 +179,9 @@ document.addEventListener('DOMContentLoaded', function() {
             alert(`Por favor corrige los siguientes campos:\n\n${errorFields.join('\n')}`);
             return;
         }
-        
+
         try {
+            debugger;
             // Preparar objeto de propiedad
             const propiedad = {
                 title: nombre,
@@ -229,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Determinar si es creación o edición
             let endpoint = 'https://localhost:7164/api/Property';
             let method = 'POST';
-            
+
             if (isEditMode) {
                 endpoint += `/${propertyId}`;
                 method = 'PUT';
@@ -237,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 propiedad.ownerId = user.id;
                 propiedad.id = propertyId;
             }
-          
+
 
             // 1. Crear/Actualizar la propiedad
             const propertyResponse = await fetch(endpoint, {
@@ -258,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (selectedFiles.length > 0) {
                 let formData = new FormData();
                 const fileNames = [];
-                
+
                 selectedFiles.forEach((file, index) => {
                     const uniqueFileName = `${Date.now()}_${index}${getFileExtension(file.name)}`;
                     fileNames.push(uniqueFileName);
@@ -291,13 +261,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Feedback al usuario
-            alert(isEditMode 
-                ? '¡Propiedad actualizada correctamente!' 
+            alert(isEditMode
+                ? '¡Propiedad actualizada correctamente!'
                 : '¡Propiedad creada exitosamente!');
-            
+
             // Redirección después de éxito
-            window.location.href = isEditMode 
-                ? 'perfilVendedor.html' 
+            window.location.href = isEditMode
+                ? 'perfilVendedor.html'
                 : 'index.html';
 
         } catch (error) {
@@ -311,7 +281,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Formateador de precio
-    document.getElementById('precio').addEventListener('input', function(e) {
+    document.getElementById('precio').addEventListener('input', function (e) {
         let value = e.target.value.replace(/[^0-9.]/g, '');
         if (value) {
             const num = parseFloat(value);
@@ -321,3 +291,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+

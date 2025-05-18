@@ -1,0 +1,49 @@
+/* ==========================================
+   Formulario visual del login
+   ========================================== */
+
+.form-container {
+    flex: 1;
+    width: 100%; /* <-- Esto es clave */
+    background-color: #E0E0E0;
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.text-input {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.check-input {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.form-container a {
+    color: black;
+    display: flex;
+    justify-content: right;
+    font-size: large;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: black;
+    text-underline-offset: 2px;
+}
+
+h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+

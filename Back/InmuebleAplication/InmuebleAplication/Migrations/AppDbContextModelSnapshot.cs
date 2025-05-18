@@ -43,8 +43,20 @@ namespace InmuebleAplication.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Documentos")
-                        .HasColumnType("longtext");
+                    b.Property<string>("DocumentoCURP")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("DocumentoComprobanteDomicilio")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("DocumentoINE")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
 
                     b.Property<string>("Nombre")
                         .IsRequired()

@@ -1,0 +1,18 @@
+/* ==========================================
+   Página: inmuebles.html
+   Descripción: Adaptaciones responsive exclusivas para inmuebles
+   ========================================== */
+
+@media (max-width: 768px) {
+    .properties-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,108 @@
+/* ==========================================
+   Página: nosotros.html
+   Descripción: Estilos específicos para sección de presentación del equipo/empresa
+   ========================================== */
+
+.nosotros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 3rem;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+}
+
+.img-us {
+    background-image: url("../../IMG/About-Us.jpg");
+    grid-column: span 3;
+    height: 30rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.nosotros article {
+    background-color: #f7f7f7;
+    padding: 2rem 5.5rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: medium;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nosotros article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.nosotros article h3 {
+    margin-bottom: 2rem;
+}
+
+.nosotros article p {
+    margin: 0;
+    color: #333;
+    text-align: justify; /* justifica el texto */
+}
+
+/* ========== .nosotros-intro dentro de grid ========== */
+.nosotros-intro {
+    grid-column: span 3;
+    background-color:#f7f7f7;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.7rem;
+    line-height: 1.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nosotros-intro:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.descripcion-nosotros p {
+    margin: 0;
+    color: #333;
+    text-align: center; /* justifica el texto */
+}
+
+
+
+/* Responsive fix para artículos */
+@media (max-width: 1024px) {
+    .nosotros article {
+        padding: 2rem;
+    }
+
+    .nosotros-intro {
+        grid-column: span 3;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nosotros {
+        grid-template-columns: 1fr;
+    }
+
+    .img-us {
+        grid-column: span 1;
+        height: 20rem;
+    }
+
+    .nosotros-intro {
+        grid-column: span 1;
+    }
+
+    .nosotros article {
+        padding: 1.5rem;
+    }
+}
