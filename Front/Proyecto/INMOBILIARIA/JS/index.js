@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (userType === 'Owner') {
             alert(`No puedes acceder a esta página como vendedor.`);
              window.location.href = 'perfilVendedor.html'; // o cualquier otra ruta
-            return; window.location.href = 'perfilVendedor.html'; // o cualquier otra ruta
-            return;
+            return; 
         } 
 
     // Verificar sesión del usuario
@@ -64,9 +63,9 @@ function renderProperties(properties) {
     }
 
 
-    const limitedProperties = properties.slice(0, 3);
+    const filteredProperties = properties.filter(property =>  !property.isReserved);
 
-    container.innerHTML = properties.map(property => `
+    container.innerHTML = filteredProperties.map(property => `
         <div class="propiedad">
         <div class="img-prop">
                 ${property.images?.length > 0 ? 

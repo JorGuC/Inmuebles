@@ -27,6 +27,13 @@
     width: 13rem;
 }
 
+.ventas button{
+    
+margin: 0 48%;
+margin-top: 1rem;
+    
+}
+
 /* Media queries exclusivas */
 @media (max-width: 768px) {
     .properties-grid {

@@ -95,7 +95,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         );
 
         //  Renderizar propiedades
-        renderProperties(propertiesWithImages.filter(p => p));
+        let allProperties = propertiesWithImages.filter(p => p.ownerId === user.id);
+        renderProperties(allProperties);
+        const searchInput = document.getElementById('searchInput');
+
+        searchInput.addEventListener('input', () => {
+            const searchText = searchInput.value.toLowerCase();
+
+            const filtered = allProperties.filter(prop =>    //La condición sirve en caso de que no venga con titulo
+                (prop.title && prop.title.toLowerCase().includes(searchText)) ||
+                (prop.location && prop.location.toLowerCase().includes(searchText))
+            );
+
+            renderProperties(filtered);
+        });
 
     } catch (error) {
         console.error('Error al cargar propiedades:', error);
@@ -185,15 +198,11 @@ async function openDocument(fileName) {
 // Función para renderizar propiedades
 function renderProperties(properties) {
     const container = document.getElementById('propertiesContainer');
-    const userData = sessionStorage.getItem('user');
-    const user = JSON.parse(userData);
-    const userProperties = properties.filter(prop => prop.ownerId === user.id);
 
-    if (!userProperties || userProperties.length === 0) {
+    if (!properties || properties.length === 0) {
         showNoResults();
         return;
     }
-
 
     container.innerHTML = properties.map(property => `
         <div class="propiedad">
@@ -221,6 +230,7 @@ function renderProperties(properties) {
         </div>
     `).join('');
 }
+
 
 
 
@@ -282,3 +292,69 @@ function deleteProperty(id) {
 
 
 }
+
+document.getElementById('btnVentas').addEventListener('click', async () => {
+    const { jsPDF } = window.jspdf;
+
+    try {
+        const response = await fetch('https://localhost:7164/api/Petitions/por-mes?anio=2025');
+        if (!response.ok) throw new Error('Error al obtener datos de ventas');
+
+        const data = await response.json();
+        const labels = data.map(d => d.nombreMes.charAt(0).toUpperCase() + d.nombreMes.slice(1));
+        const values = data.map(d => d.cantidad);
+
+        const canvas = document.getElementById('ventasChart');
+        const ctx = canvas.getContext('2d');
+
+        if (window.ventasChartInstance) {
+            window.ventasChartInstance.destroy();
+        }
+
+        window.ventasChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Solicitudes por mes',
+                    data: values,
+                    backgroundColor: '#66a3ff',
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                responsive: false,
+                animation: false,
+                plugins: {
+                    legend: { display: false },
+                    title: {
+                        display: true,
+                        text: 'Ventas - Inmobiliaria Uriangato',
+                        font: { size: 18 }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { stepSize: 1 }
+                    }
+                }
+            }
+        });
+
+        // Esperar a que el gráfico se renderice correctamente
+        setTimeout(() => {
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jsPDF();
+            pdf.setFontSize(14);
+            pdf.text("Reporte de ventas mensuales (2025)", 15, 20);
+            pdf.addImage(imgData, 'PNG', 10, 30, 180, 100);
+            pdf.save("reporte_ventas_2025.pdf");
+        }, 800); // Tiempo extendido para asegurar render
+
+    } catch (err) {
+        console.error("Error al generar el reporte:", err);
+        alert("No se pudo generar el reporte de ventas.");
+    }
+});
+

@@ -3,6 +3,13 @@ document.addEventListener('DOMContentLoaded', async () => {
    
 
     try {
+
+        if (userType === 'Owner') {
+            alert(`No puedes acceder a esta página como vendedor.`);
+             window.location.href = 'perfilVendedor.html'; // o cualquier otra ruta
+            return; 
+            
+        } 
         
         document.getElementById('loadingIndicator').style.display = 'block';
         document.getElementById('propertiesContainer').innerHTML = '';
@@ -43,47 +50,47 @@ document.addEventListener('DOMContentLoaded', async () => {
         allProperties = propertiesWithImages.filter(p => p);
         renderProperties(allProperties);
         const searchInput = document.getElementById('searchInput');
-const bedroomFilter = document.getElementById('bedroomFilter');
-const priceFilter = document.getElementById('priceFilter');
+        const bedroomFilter = document.getElementById('bedroomFilter');
+        const priceFilter = document.getElementById('priceFilter');
 
-// Función reutilizable de filtrado
-function applyFilters() {
-    const searchText = searchInput.value.toLowerCase();
-    const selectedBedrooms = bedroomFilter.value;
-    const selectedPrice = priceFilter.value;
+        // Función reutilizable de filtrado
+        function applyFilters() {
+            const searchText = searchInput.value.toLowerCase();
+            const selectedBedrooms = bedroomFilter.value;
+            const selectedPrice = priceFilter.value;
 
-    const filtered = allProperties.filter(prop => {
-        const matchesSearch = prop.title.toLowerCase().includes(searchText) || 
-                              (prop.location && prop.location.toLowerCase().includes(searchText));
-        const matchesBedroom = selectedBedrooms === '' || prop.bedrooms >= selectedBedrooms;
+            const filtered = allProperties.filter(prop => {
+                const matchesSearch = prop.title.toLowerCase().includes(searchText) || 
+                                    (prop.location && prop.location.toLowerCase().includes(searchText));
+                const matchesBedroom = selectedBedrooms === '' || prop.bedrooms >= selectedBedrooms;
 
-        let matchesPrice = true;
-        const price = prop.price || 0;
+                let matchesPrice = true;
+                const price = prop.price || 0;
 
-        if (selectedPrice === '100000') {
-            matchesPrice = price <= 100000;
-        } else if (selectedPrice === '300000') {
-            matchesPrice = price > 100000 && price <= 300000;
-        } else if (selectedPrice === '500000') {
-            matchesPrice = price > 300000 && price <= 500000;
-        } else if (selectedPrice === '500000+') {
-            matchesPrice = price > 500000;
+                if (selectedPrice === '100000') {
+                    matchesPrice = price <= 100000;
+                } else if (selectedPrice === '300000') {
+                    matchesPrice = price > 100000 && price <= 300000;
+                } else if (selectedPrice === '500000') {
+                    matchesPrice = price > 300000 && price <= 500000;
+                } else if (selectedPrice === '500000+') {
+                    matchesPrice = price > 500000;
+                }
+
+                return matchesSearch && matchesBedroom && matchesPrice;
+            });
+
+            renderProperties(filtered);
         }
 
-        return matchesSearch && matchesBedroom && matchesPrice;
-    });
-
-    renderProperties(filtered);
-}
-
-// Escucha cambios automáticamente
-searchInput.addEventListener('input', applyFilters);
-bedroomFilter.addEventListener('change', applyFilters);
-priceFilter.addEventListener('change', applyFilters);
+        // Escucha cambios automáticamente
+        searchInput.addEventListener('input', applyFilters);
+        bedroomFilter.addEventListener('change', applyFilters);
+        priceFilter.addEventListener('change', applyFilters);
 
         
         
-    } catch (error) {
+} catch (error) {
         console.error('Error al cargar propiedades:', error);
         showError();
     } finally {

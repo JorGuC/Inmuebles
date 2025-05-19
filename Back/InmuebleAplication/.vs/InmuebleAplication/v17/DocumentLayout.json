@@ -1,78 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\petitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\petitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\petitionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\petition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519042324_dates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InmuebleAplication\\Migrations\\20250519042324_dates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\propertyimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519034438_fechas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InmuebleAplication\\Migrations\\20250519034438_fechas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\petition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\petition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250518023334_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519013700_apartar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InmuebleAplication\\Migrations\\20250519013700_apartar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250518023334_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\migrations\\20250518023334_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250409124826_mix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250409124826_mix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\migrations\\20250409124826_mix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\ariza\\documentos\\inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250518214109_migracioncon3docs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\migrations\\20250518214109_migracioncon3docs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250518205055_migracioncondocumentos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\migrations\\20250518205055_migracioncondocumentos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|c:\\users\\dell\\pictures\\git inmuebles\\inmuebles\\back\\inmuebleaplication\\inmuebleaplication\\migrations\\20250518204547_migracioncondocumentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{934AAA86-69BE-4D9E-A0B2-1D00B72083D1}|InmuebleAplication\\InmuebleAplication.csproj|solutionrelative:inmuebleaplication\\migrations\\20250518204547_migracioncondocumentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,15 +114,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -130,201 +138,245 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\UserController.cs",
-              "RelativeToolTip": "InmuebleAplication\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T16:24:07.893Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PetitionsController.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PetitionsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PetitionsController.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\PetitionsController.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PetitionsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PetitionsController.cs",
               "RelativeToolTip": "InmuebleAplication\\Controllers\\PetitionsController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAQwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAACEAAAAAAAAAAAA5wDQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T12:42:38.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\User.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\User.cs",
-              "RelativeToolTip": "InmuebleAplication\\Models\\User.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBgAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20250519042324_dates.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519042324_dates.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250519042324_dates.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519042324_dates.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250519042324_dates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:21:27.935Z",
+              "WhenOpened": "2025-05-19T04:23:24.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "20250519034438_fechas.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519034438_fechas.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250519034438_fechas.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519034438_fechas.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250519034438_fechas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T03:44:38.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250519013700_apartar.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519013700_apartar.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250519013700_apartar.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250519013700_apartar.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250519013700_apartar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T01:37:00.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyImageController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\PropertyImageController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:49:40.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:24:07.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Petition.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Petition.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Petition.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Models\\Petition.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Petition.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Petition.cs",
               "RelativeToolTip": "InmuebleAplication\\Models\\Petition.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T12:41:20.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "PropertyImage.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\PropertyImage.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\PropertyImage.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Models\\PropertyImage.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\PropertyImage.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\PropertyImage.cs",
               "RelativeToolTip": "InmuebleAplication\\Models\\PropertyImage.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwAsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T06:40:19.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250518214109_migracionCon3Docs.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
-              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T21:41:09.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:40:19.096Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "PropertyController.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\PropertyController.cs",
               "RelativeToolTip": "InmuebleAplication\\Controllers\\PropertyController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAuwBYAAAARAAAAAAAAAA==",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T17:56:24.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InmueblesController.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\InmueblesController.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\InmueblesController.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\InmueblesController.cs",
-              "RelativeToolTip": "InmuebleAplication\\Controllers\\InmueblesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T05:30:58.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "InmuebleAplication\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwA4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:02:49.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Property.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Property.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Property.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Models\\Property.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Property.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\Property.cs",
               "RelativeToolTip": "InmuebleAplication\\Models\\Property.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T06:35:13.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250518205055_migracionConDocumentos2.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
-              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "20250518214109_migracionCon3Docs.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518214109_migracionCon3Docs.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:50:56.066Z",
+              "WhenOpened": "2025-05-18T21:41:09.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InmueblesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "RelativeToolTip": "InmuebleAplication\\Controllers\\InmueblesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAB/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T05:30:58.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20250518023334_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
-              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\User.cs",
+              "RelativeToolTip": "InmuebleAplication\\Models\\User.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T02:33:34.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T06:21:27.935Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "20250518204547_migracionConDocumentos.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
-              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "InmuebleAplication\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:45:47.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T17:02:49.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250518205055_migracionConDocumentos2.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518205055_migracionConDocumentos2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:50:56.066Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Program.cs",
-              "RelativeDocumentMoniker": "InmuebleAplication\\Program.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Program.cs",
-              "RelativeToolTip": "InmuebleAplication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Title": "20250518023334_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518023334_InitialMigration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:09:36.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T02:33:34.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250518204547_migracionConDocumentos.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
+              "RelativeToolTip": "InmuebleAplication\\Migrations\\20250518204547_migracionConDocumentos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:45:47.994Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Program.cs",
+              "RelativeDocumentMoniker": "InmuebleAplication\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Program.cs",
+              "RelativeToolTip": "InmuebleAplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:09:36.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "20250409124826_Mix.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
               "RelativeToolTip": "InmuebleAplication\\Migrations\\20250409124826_Mix.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,11 +384,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "InmuebleAplication\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Properties\\launchSettings.json",
               "RelativeToolTip": "InmuebleAplication\\Properties\\launchSettings.json",
               "ViewState": "AQIAABIAAAAAAAAAAAAwwBUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -344,11 +396,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "InmuebleAplication\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\Models\\LoginModel.cs",
               "RelativeToolTip": "InmuebleAplication\\Models\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,11 +408,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\appsettings.json",
               "RelativeDocumentMoniker": "InmuebleAplication\\appsettings.json",
-              "ToolTip": "C:\\Users\\ariza\\Documentos\\inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Pictures\\GIT Inmuebles\\Inmuebles\\Back\\InmuebleAplication\\InmuebleAplication\\appsettings.json",
               "RelativeToolTip": "InmuebleAplication\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

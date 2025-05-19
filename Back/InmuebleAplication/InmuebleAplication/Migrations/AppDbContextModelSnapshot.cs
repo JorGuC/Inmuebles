@@ -43,6 +43,9 @@ namespace InmuebleAplication.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<DateTime?>("Date")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<string>("DocumentoCURP")
                         .IsRequired()
                         .HasMaxLength(500)

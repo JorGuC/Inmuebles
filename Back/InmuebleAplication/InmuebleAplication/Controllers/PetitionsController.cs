@@ -10,7 +10,7 @@ namespace InmuebleAplication.Controllers
     public class PetitionsController : ControllerBase
     {
         private readonly AppDbContext _context;
-        private readonly string _storagePathDocs = @"C:\Users\ariza\Documentos\inmuebles\Inmuebles\Front\Proyecto\INMOBILIARIA\DOCS";
+        private readonly string _storagePathDocs = @"C:\Users\DELL\Pictures\GIT Inmuebles\Inmuebles\Front\Proyecto\INMOBILIARIA\DOCS";
 
         public PetitionsController(AppDbContext context)
         {
@@ -47,6 +47,9 @@ namespace InmuebleAplication.Controllers
             if (!_context.Properties.Any(p => p.Id == petition.PropertyId))
                 return BadRequest("El PropertyId no corresponde a una propiedad válida");
 
+            if (!petition.Date.HasValue)
+                petition.Date = DateTime.Now;
+
             _context.Petitions.Add(petition);
             await _context.SaveChangesAsync();
 
@@ -82,6 +85,36 @@ namespace InmuebleAplication.Controllers
                 documentoCURP = p.DocumentoCURP,
                 documentoComprobanteDomicilio = p.DocumentoComprobanteDomicilio
             });
+
+            return Ok(result);
+        }
+
+
+        // GET: api/Petitions/por-mes?anio=2025
+        [HttpGet("por-mes")]
+        public async Task<IActionResult> GetPetitionsGroupedByMonth([FromQuery] int anio = 0)
+        {
+            var query = _context.Petitions.AsQueryable();
+
+            if (anio > 0)
+            {
+                query = query.Where(p => p.Date.HasValue && p.Date.Value.Year == anio);
+            }
+
+            var result = await query
+                .Where(p => p.Date.HasValue)
+                .GroupBy(p => p.Date.Value.Month)
+                .Select(g => new
+                {
+                    MesNumero = g.Key,
+                    NombreMes = System.Globalization.CultureInfo
+                        .GetCultureInfo("es-MX")
+                        .DateTimeFormat
+                        .GetMonthName(g.Key),
+                    Cantidad = g.Count()
+                })
+                .OrderBy(g => g.MesNumero)
+                .ToListAsync();
 
             return Ok(result);
         }

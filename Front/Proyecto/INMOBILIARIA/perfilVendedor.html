@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap"
         rel="stylesheet">
@@ -19,6 +23,7 @@
 </head>
 
 <body>
+    <canvas id="ventasChart" style="display: none;"></canvas>
     <div class="page-wrapper">
         <div class="espaciador"></div>
         <div class="nav">
@@ -52,7 +57,7 @@
                 <main class="main-content">
                     <div class="search-container">
                         <input type="text" id="searchInput" placeholder="Buscar propiedades...">
-                        <button id="searchButton">Buscar</button>
+                        <button id="filterBtn">Buscar</button>
                     </div>
 
 
@@ -68,12 +73,19 @@
                         <p>No se encontraron propiedades que coincidan con tu búsqueda.</p>
                     </div>
 
+                    
 
                 </main>
 
             </section>
+           
             <section id="historial">
+                
                 <hr>
+                <div class="ventas">
+                        <button id="btnVentas">Gráfico Ventas</button>
+                    
+                </div>
                 <h2 id="title">Mis pedidos</h2>
                 <table id="tblHistorial">
                     <tr>
